@@ -218,6 +218,7 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 RELAX_USES_LIBRARY_CHECK := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 #Inherit from the proprietary version
 -include vendor/xiaomi/vayu/BoardConfigVendor.mk
