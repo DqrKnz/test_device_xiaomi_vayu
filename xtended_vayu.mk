@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit common Xtended configurations
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := xtended_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
