@@ -32,6 +32,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:11/RKQ1.200826.002/V12.5.7.0.RJUMIXM:user/release-keys
 
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
 # Xtended additions
 XTENDED_BUILD_MAINTAINER := DqrKnzx & W1zzyl
 WITH_GAPPS := true
