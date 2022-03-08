@@ -31,3 +31,4 @@ BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:11/RKQ1.200826.002/V12.5.7.0.RJUMIX
 
 # Xtended additions
 XTENDED_BUILD_MAINTAINER := DqrKnzx & W1zzyl
+WITH_GAPPS := true
